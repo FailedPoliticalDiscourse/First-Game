@@ -5,9 +5,27 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <sprites name="sprites">
+    <sprite>sprites\sWall</sprite>
+    <sprite>sprites\sStore</sprite>
+    <sprites name="Characters">
+      <sprite>sprites\sCharGeneric</sprite>
+      <sprite>sprites\sCharBaker</sprite>
+    </sprites>
+  </sprites>
+  <backgrounds name="background">
+    <background>background\bgVillage</background>
+  </backgrounds>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\obChar</object>
+    <object>objects\ob_dialog</object>
+    <object>objects\obWall</object>
+    <object>objects\obStore</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\rVillage</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
