@@ -5,9 +5,30 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <sprites name="sprites">
+    <sprites name="Characters">
+      <sprite>sprites\sCharGeneric</sprite>
+      <sprite>sprites\sCharGeneric2</sprite>
+    </sprites>
+    <sprite>sprites\sWall</sprite>
+    <sprite>sprites\sStore</sprite>
+  </sprites>
+  <backgrounds name="background">
+    <background>background\bgVillage</background>
+  </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\script0.gml</script>
+  </scripts>
+  <objects name="objects">
+    <object>objects\obChar</object>
+    <object>objects\ob_NPC</object>
+    <object>objects\obWall</object>
+    <object>objects\obStore</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\rVillage</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
