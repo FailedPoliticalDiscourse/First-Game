@@ -6,23 +6,38 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
+<<<<<<< HEAD
     <sprites name="Characters">
       <sprite>sprites\sCharGeneric</sprite>
       <sprite>sprites\sCharGeneric2</sprite>
     </sprites>
     <sprite>sprites\sWall</sprite>
     <sprite>sprites\sStore</sprite>
+=======
+    <sprite>sprites\sWall</sprite>
+    <sprite>sprites\sStore</sprite>
+    <sprites name="Characters">
+      <sprite>sprites\sCharGeneric</sprite>
+      <sprite>sprites\sCharBaker</sprite>
+    </sprites>
+>>>>>>> 05b4987501dd09bd085f624d3684318c4ebd6ee6
   </sprites>
   <backgrounds name="background">
     <background>background\bgVillage</background>
   </backgrounds>
   <paths name="paths"/>
+<<<<<<< HEAD
   <scripts name="scripts">
     <script>scripts\script0.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obChar</object>
     <object>objects\ob_NPC</object>
+=======
+  <objects name="objects">
+    <object>objects\obChar</object>
+    <object>objects\ob_dialog</object>
+>>>>>>> 05b4987501dd09bd085f624d3684318c4ebd6ee6
     <object>objects\obWall</object>
     <object>objects\obStore</object>
   </objects>
