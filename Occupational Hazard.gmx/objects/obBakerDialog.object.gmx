@@ -105,7 +105,7 @@ instance_destroy(); //destroy the object
         </arguments>
       </action>
     </event>
-    <event eventtype="8" enumb="0">
+    <event eventtype="8" enumb="64">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -122,8 +122,8 @@ instance_destroy(); //destroy the object
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_roundrect(8,8,632,240,0)
-draw_text(x,y,message_draw); //draw the text at the coordinates
+            <string>draw_text(view_xview[0],view_xview[0],message_draw); //draw the text at the coordinates
+
 </string>
           </argument>
         </arguments>

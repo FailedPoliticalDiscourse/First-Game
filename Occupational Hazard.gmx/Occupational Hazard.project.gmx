@@ -7,27 +7,43 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprites name="Characters">
-      <sprite>sprites\sCharGeneric</sprite>
-      <sprite>sprites\sCharGeneric2</sprite>
+      <sprite>sprites\sCharChild</sprite>
+      <sprite>sprites\sCharBaker</sprite>
     </sprites>
-    <sprite>sprites\sWall</sprite>
-    <sprite>sprites\sStore</sprite>
+    <sprite>sprites\sDoorFront</sprite>
+    <sprite>sprites\sDoorSide</sprite>
+    <sprite>sprites\sBlock</sprite>
+    <sprite>sprites\sprite6</sprite>
   </sprites>
   <backgrounds name="background">
-    <background>background\bgVillage</background>
+    <background>background\bgSky</background>
+    <background>background\bgOrange</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\script0.gml</script>
   </scripts>
   <objects name="objects">
-    <object>objects\obChar</object>
-    <object>objects\ob_NPC</object>
+    <objects name="Main Character">
+      <object>objects\obCharMainParent</object>
+      <object>objects\obCharMainChild</object>
+      <object>objects\obCharMainAdult</object>
+    </objects>
+    <objects name="NPCs">
+      <object>objects\obNPC</object>
+      <object>objects\obBaker</object>
+    </objects>
+    <object>objects\obBakerDialog</object>
     <object>objects\obWall</object>
-    <object>objects\obStore</object>
+    <object>objects\obDoorParent</object>
+    <object>objects\obDoorFront</object>
+    <object>objects\obDoorSide</object>
+    <object>objects\obFadeOut</object>
+    <object>objects\obFadeIn</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rVillage</room>
+    <room>rooms\rBakery</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
